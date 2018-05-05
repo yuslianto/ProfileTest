@@ -63,9 +63,7 @@ export default class ProfileList extends Component {
                                 </View>
                             </View>
                             <View style={{flex:1, flexDirection: 'row', alignSelf: 'center', marginTop: 10}}>
-                                <Button transparent bordered style={{marginTop: 10}} 
-                                    onPress={() => this.props.navigation.navigate('HomeEnrolCourse') }
-                                >
+                                <Button transparent bordered style={{marginTop: 10}} >
                                     <Text style={{color: 'blue', fontWeight: 'bold', fontSize: 15}} >MESSAGE</Text>
                                 </Button>
                                 <Button success style={{marginTop: 10}} >
